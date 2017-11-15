@@ -113,6 +113,7 @@ model.add(Dense(1))
 Because of my poor simulator driving skills I used the training data provided by Udacity for my training data. I agumented this by by flipping steering angle and images to simulate the car driving in the opposite direction as well as using images from the left and right cameras and offsetting the assocaited steering angle. The data was cropped and normalized and the beggining of the network.
 
 Here are some images used in the training set:
+
 ![alt text](data/data/examples/center_2016_12_01_13_31_13_037.jpg "Center Image")
 ![alt text](data/data/examples/center_2016_12_01_13_32_42_245.jpg "Center Image")
 ![alt text](data/data/examples/left_2016_12_01_13_36_31_777.jpg "Left Image")
