@@ -111,3 +111,6 @@ model.add(Dense(1))
 #### 3. Creation of the Training Set & Training Process
 
 Because of my poor simulator driving skills I used the training data provided by Udacity for my training data. I agumented this by by flipping steering angle and images to simulate the car driving in the opposite direction as well as using images from the left and right cameras and offsetting the assocaited steering angle. The data was cropped and normalized and the beggining of the network.
+
+# Video Output
+https://github.com/kyesh/CarND-Behavioral-Cloning-P3/raw/master/outputVid.mp4
